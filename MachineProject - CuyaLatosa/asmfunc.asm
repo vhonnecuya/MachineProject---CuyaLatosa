@@ -3,8 +3,7 @@ bits 64
 default rel
 
 global daxpy_asm
-;daxpy_asm(int n, double A, double* X, double* Y, double* Z)
-;			rcx,	xmm1,	r8,			r9,			?
+
 daxpy_asm:
     push rbp 
     mov rbp, rsp
