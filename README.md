@@ -1,8 +1,19 @@
 # MachineProject - CuyaLatosa
 -Cuya, Vhonne
+
+
+
+
 -Latosa, Jose
 
+
+
+
  <mark>DAXPY (A*X + Y) Function</mark>
+
+
+
+ 
  <mark>Z[i] = A  • X [i] + Y[i]</mark>
 
 Execution Time Comparison:
