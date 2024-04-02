@@ -15,6 +15,12 @@ Assembly = Average execution time: 0.016767s
 C        = Average execution time: 11.898100s
 Assembly = Average execution time: 4.493033s
 
+| Language      | 2^20          | 2^24         | 2^28        |
+| ------------- | ------------- | ------------ | ----------- |
+| C             | 0.001433s     | 0.022267s    | 11.898100s  |
+| Assembly      | 0.000967s     | 0.016767s    | 4.493033s   |
+
+
 
 The assembly code runs faster than the C code because it skips some steps like function calls and uses special instructions that do multiple calculations at once. It also may access memory more efficiently.
 It eliminates function call overhead by directly implementing the loop logic, utilizes SIMD instructions for parallel processing of arithmetic operations, and potentially benefits from optimized memory access patterns.
