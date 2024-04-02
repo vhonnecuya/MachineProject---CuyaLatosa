@@ -1,19 +1,11 @@
 # MachineProject - CuyaLatosa
+-Cuya, Vhonne
+-Latosa, Jose
 
+ <mark>DAXPY (A*X + Y) Function</mark>
+ <mark>Z[i] = A  • X [i] + Y[i]</mark>
 
 Execution Time Comparison:
-
-[n = 2^20]
-C        = Average execution time: 0.001433s
-Assembly = Average execution time: 0.000967s
-
-[n = 2^24]
-C        = Average execution time: 0.022267s
-Assembly = Average execution time: 0.016767s
-
-[n = 2_28]
-C        = Average execution time: 11.898100s
-Assembly = Average execution time: 4.493033s
 
 | Language      | 2^20          | 2^24         | 2^28        |
 | ------------- | ------------- | ------------ | ----------- |
